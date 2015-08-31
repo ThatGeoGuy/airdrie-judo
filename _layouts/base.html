@@ -8,9 +8,9 @@
         <meta name='author' content='{{ page.author }}'>
         <meta name='keywords' content='{% for tag in page.tags %}{{tag}},{% endfor %}'>
 		<link rel='icon' href='{{ site.baseurl}}favicon.ico'>
-        <link rel='stylesheet' href='//yui.yahooapis.com/pure/0.6.0/pure-min.css'>
+        <link rel='stylesheet' href='http://yui.yahooapis.com/pure/0.6.0/pure-min.css'>
         <link rel='stylesheet' href='{{ site.baseurl }}css/base.css'>
-		<link rel='stylesheet' href='//yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css'>
+		<link rel='stylesheet' href='http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css'>
         {% for stylesheet in page.stylesheets %}<link rel='stylesheet' href='{{ site.baseurl }}{{ stylesheet }}'>
         {% endfor %}
     </head>
