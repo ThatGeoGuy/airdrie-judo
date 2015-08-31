@@ -8,6 +8,7 @@
     -moz-transition: height 0.5s;
     -ms-transition: height 0.5s;
     transition: height 0.5s;
+	font-size: 16px;
 }
 
 .custom-wrapper.open {
@@ -64,7 +65,7 @@
     transform: rotate(-45deg);
 }
 
-@media (max-width: 47.999em) {
+@media (max-width: 48em) {
 
     .custom-menu-3 {
         text-align: left;
