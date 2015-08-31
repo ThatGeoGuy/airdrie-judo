@@ -1,3 +1,9 @@
+#judo-logo {
+	width: auto;
+	max-height: 20px;
+	padding-top: 5px;
+}
+
 .custom-wrapper {
     background-color: #ddd;
     margin-bottom: 1em;
@@ -66,7 +72,6 @@
 }
 
 @media (max-width: 48em) {
-
     .custom-menu-3 {
         text-align: left;
     }
@@ -74,5 +79,4 @@
     .custom-toggle {
         display: block;
     }
-
 }
