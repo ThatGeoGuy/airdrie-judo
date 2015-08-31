@@ -8,7 +8,7 @@
     -moz-transition: height 0.5s;
     -ms-transition: height 0.5s;
     transition: height 0.5s;
-	font-size: 16px;
+	font-size: 20px;
 }
 
 .custom-wrapper.open {
@@ -63,12 +63,6 @@
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
-}
-
-@media (min-width: 24em) {
-	.custom-wrapper {
-		font-size: 20px;
-	}
 }
 
 @media (max-width: 48em) {
