@@ -65,6 +65,12 @@
     transform: rotate(-45deg);
 }
 
+@media (min-width: 24em) {
+	.custom-wrapper {
+		font-size: 20px;
+	}
+}
+
 @media (max-width: 48em) {
 
     .custom-menu-3 {
