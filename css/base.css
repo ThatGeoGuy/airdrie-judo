@@ -1,3 +1,60 @@
+/*
+ * -- BASE STYLES --
+ * Most of these are inherited from Base, but I want to change a few.
+ */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+p {
+	text-align: justify;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+body {
+    line-height: 1.7em;
+    color: #7f8c8d;
+    font-size: 13px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+    color: #34495e;
+}
+
+a:link.pure-menu-heading,
+a:link.pure-menu-link {
+	color: #7f8c8d;
+}
+
+a:visited.pure-menu-heading,
+a:visited.pure-menu-link {
+	color: #7f8c8d;
+}
+
+a:link {
+	color: #5882fa;
+}
+
+a:hover {
+	color: #5858fa;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #5858fa;
+}
+
 #judo-logo {
 	width: auto;
 	max-height: 20px;
@@ -69,6 +126,34 @@
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
+}
+
+#footer {
+    background-color: #03244e;
+	background-image: linear-gradient(to right, #03244e, #14488f);
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2em;
+}
+
+#footer hr {
+	max-width: 80%;
+	border: 0;
+	height: 1px;
+	background-color: #ddd;
+	margin-bottom: 1em;
+}
+
+#footer * {
+	text-align: center;
+	color: #ddd;
+	margin: auto;
+}
+
+#footer-list li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 2em;
 }
 
 @media (max-width: 48em) {
