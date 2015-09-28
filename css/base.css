@@ -135,6 +135,7 @@ a:visited {
 	margin-right: auto;
 	padding-bottom: 5em;
 	padding-top: 3em;
+	font-size: 10pt;
 }
 
 #footer hr {
@@ -145,10 +146,14 @@ a:visited {
 	margin-bottom: 1em;
 }
 
+#footer p {
+	padding-left: 1em;
+}
+
 #footer * {
 	text-align: center;
 	color: #ddd;
-	margin: auto;
+	margin: 0;
 }
 
 #footer-list li {
