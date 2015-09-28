@@ -147,13 +147,17 @@ a:visited {
 }
 
 #footer p {
+	margin: 0;
 	padding-left: 1em;
 }
 
 #footer * {
 	text-align: center;
 	color: #ddd;
-	margin: 0;
+}
+
+#footer ul {
+	margin-bottom: 0;
 }
 
 #footer-list li {
