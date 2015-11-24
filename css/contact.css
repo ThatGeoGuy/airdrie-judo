@@ -1,0 +1,18 @@
+p.nobreak {
+	line-height: 0.5em;
+}
+
+table {
+	margin-left: 1em;
+	max-width: 100%;
+    color: #7f8c8d;
+}
+
+td {
+	text-align: left;
+}
+
+td.r {
+	padding-left: 1em;
+	text-align: right;
+}
