@@ -1,0 +1,8 @@
+port: 8000
+highlighter: pygments
+safe: false
+permalink: pretty
+relative_permalinks: false
+markdown: kramdown
+# paginate: 5
+# paginate_path: "blog/:num"
