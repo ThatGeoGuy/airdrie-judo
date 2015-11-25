@@ -1,0 +1,14 @@
+hr {
+	width: 80%;
+}
+
+.news-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (min-width: 48em) {
+	.news-center {
+		max-width: 80%;
+	}
+}
