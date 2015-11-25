@@ -119,8 +119,10 @@
 	}
 
 	.split p {
-		margin: 0;
+		margin-top: 0;
 		margin-bottom: 1em;
+		margin-right: 1em;
+		margin-left: 0.5em;
 	}
 
 	.ribbon .content-head {

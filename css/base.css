@@ -184,6 +184,9 @@ a:visited {
 }
 
 @media (max-width: 48em) {
+	#content-wrapper{
+		padding-bottom: 16em;
+	}
     .custom-menu-3 {
         text-align: left;
     }
