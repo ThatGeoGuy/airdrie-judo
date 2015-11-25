@@ -1,0 +1,18 @@
+h3 > em {
+	font-size: 80%;
+}
+
+dl {
+	margin-left: 2em;
+	margin-right: 2em;
+	text-align: justify;
+}
+
+dt {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+dd {
+	margin-left: 0.5em;
+}
