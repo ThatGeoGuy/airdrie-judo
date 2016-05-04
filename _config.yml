@@ -1,5 +1,4 @@
 port: 8000
-highlighter: pygments
 safe: false
 permalink: pretty
 relative_permalinks: false
