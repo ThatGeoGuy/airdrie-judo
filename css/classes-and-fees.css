@@ -4,8 +4,53 @@ table {
     width: 85%;
     letter-spacing: 0px;
     font-size: 11pt;
+    margin-bottom: 2em;
 }
 
 table > thead > tr > th {
+    background-color: rgba(0,0,0,0.10);
     text-align: center;
 }
+
+table > tbody > tr > td {
+    text-align: center;
+}
+
+.blank-row > td{
+    background-color: rgba(0,0,0,0.15);
+}
+
+dl.mobile-only > dd {
+    letter-spacing: 0em;
+}
+
+/* MOBILE MEDIA QUERIES */
+@media (max-width: 921px) {
+    .mobile-only {
+        display: !important;
+    }
+
+    .desktop-only {
+        display: none !important;
+    }
+}
+
+/*
+ * -- TABLET (AND UP) MEDIA QUERIES --
+ * On tablets and other medium-sized devices, we want to customize some
+ * of the mobile styles.
+ */
+@media (min-width: 922px) {
+    .mobile-only {
+        display: none !important;
+    }
+
+    .desktop-only {
+        display: !important;
+    }
+
+    dt {
+        font-size: 11pt;
+    }
+}
+
