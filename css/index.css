@@ -47,16 +47,29 @@
 /* This is the class used for the main content headers (<h2>) */
 .content-head {
     font-weight: 400;
-    text-transform: uppercase;
+    font-variant: small-caps;
     letter-spacing: 0.1em;
+    padding-left: 0.2em;
     margin: 0.5em 0 1em;
+}
+
+h2 {
+    font-variant: small-caps;
+    letter-spacing: 0.01em;
+    color: #40506f;
+}
+
+hr {
+    max-width: 90%;
+    color: #40506f;
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
 .ribbon .content-head {
 	font-weight: 400;
-	text-transform: uppercase;
+    font-variant: small-caps;
 	letter-spacing: 0.1em;
+    padding-right: 0.5em;
     margin: 0.5em 0 1em;
     color: white;
 }
