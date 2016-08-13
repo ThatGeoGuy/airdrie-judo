@@ -24,6 +24,14 @@ dl.mobile-only > dd {
     letter-spacing: 0em;
 }
 
+table.pricing-table {
+    max-width: 50%;
+}
+
+table.pricing-table tr td.discount {
+    text-align: left;
+}
+
 /* MOBILE MEDIA QUERIES */
 @media (max-width: 921px) {
     .mobile-only {
