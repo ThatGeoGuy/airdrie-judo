@@ -1,10 +1,18 @@
 .news-center {
-	margin-left: auto;
-	margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pagination {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0 0.5em;
+    padding-bottom: 1em;
 }
 
 @media (min-width: 48em) {
-	.news-center {
-		max-width: 80%;
-	}
+    .news-center {
+        max-width: 80%;
+    }
 }

@@ -1,7 +1,7 @@
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
 	{% if paginator.previous_page %}
-	<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; More Recent</a>
+	<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Recent</a>
 	{% else %}
 	{% endif %}
 
