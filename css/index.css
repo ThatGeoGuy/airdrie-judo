@@ -18,6 +18,12 @@
     clear: both;
 }
 
+.news-img {
+    border-radius: 10px;
+    border: 2px solid white;
+    max-width: 90%;
+    height: auto;
+}
 
 .profile {
     text-align: justify;
@@ -128,6 +134,10 @@ hr {
         max-width: 90%;
     }
 
+    .news-img {
+        max-width: 650px;
+    }
+
     .img-profile {
         max-width: 50%;
     }
@@ -181,13 +191,13 @@ hr {
  * of the mobile and tablet styles.
  */
 @media (min-width: 78em) {
-	  .img-profile {
-		    max-width: 175px;
-	  }
+    .img-profile {
+        max-width: 175px;
+    }
 
-	  .pure-g {
-		    max-width: 1280px;
-		    margin-left: auto;
-		    margin-right: auto;
-	  }
+    .pure-g {
+        max-width: 1280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
